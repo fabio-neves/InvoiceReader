@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bll\InvoiceEventAggregator.cs" />
+    <Compile Include="Bll\PDFNewFormatReader.cs" />
     <Compile Include="Bll\PDFReader.cs" />
     <Compile Include="Bll\QifExport.cs" />
     <Compile Include="Messages.Designer.cs">

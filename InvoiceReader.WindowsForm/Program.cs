@@ -20,7 +20,7 @@ namespace InvoiceReader.WindowsForm
             var faturaPresenter = new InvoicePresenter(main, ea);
             ea.AddDataChangedEventHandler(faturaPresenter);
             ea.AddExportInvokedEndEventHandler(faturaPresenter);
-            ea.AddFileChangedEventHandler(new PDFReader());
+            ea.AddFileChangedEventHandler(new PDFNewFormatReader());
             ea.AddExportInvokedEventHandler(new QifExport());
             Application.Run(main);            
         }
